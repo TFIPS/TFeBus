@@ -1,0 +1,13 @@
+{
+	"elements":
+	[
+	],
+	"actions":
+	[
+		{ "type": "Button", "label": "Test", "onClick": "TFEB_Test($id);" },
+		{ "type": "Button", "label": "Heizprogramm 1 laden", "onClick": "TFEB_LoadP($id, 'H1');" },
+		{ "type": "Button", "label": "Heizprogramm 3 laden", "onClick": "TFEB_LoadP($id, 'H3');" },
+		{ "type": "Button", "label": "Wasserprogramm 1 laden", "onClick": "TFEB_LoadP($id, 'W1');" },
+		{ "type": "Button", "label": "Wasserprogramm 3 laden", "onClick": "TFEB_LoadP($id, 'W3');" }
+	]
+}
